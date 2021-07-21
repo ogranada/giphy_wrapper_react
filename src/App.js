@@ -1,10 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.scss';
+import Header from "./components/Header/Header";
+import LandingImage from "./components/LandingImage/LandingImage";
+import SearchInput from "./components/SearchInput/SearchInput";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header />
+      <LandingImage/>
+      <SearchInput />
+    </div>
+  );
+}
+
+export default App;
+
+/*
+<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,8 +31,4 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
-
-export default App;
+*/

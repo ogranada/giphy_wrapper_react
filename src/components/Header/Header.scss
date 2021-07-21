@@ -1,0 +1,9 @@
+.Header {
+    display: flex;
+    padding: 0.3em;
+    background-color: steelblue;
+    box-shadow: 0 2px 5px #000;
+    &-logo { // .Header-logo
+        max-height: 2em;
+    }
+}
